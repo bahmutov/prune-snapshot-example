@@ -1,0 +1,16 @@
+{
+  "name": "prune-snapshot-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "6.1.4",
+    "snap-shot-it": "7.4.4"
+  }
+}
