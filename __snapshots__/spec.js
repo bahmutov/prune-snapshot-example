@@ -1,3 +1,7 @@
+exports['this name'] = 1
+
+exports['this name again'] = 2
+
 exports['works 1'] = `
 foo
 `
