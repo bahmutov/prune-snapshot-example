@@ -4,12 +4,12 @@ const snapshot = require('snap-shot-it')
 // case 3
 // same final snapshot name formed from the context + test names
 // "foo works 1"
-// same value
+// same or different value
 context('foo', () => {
   it('works', () => {
     snapshot(1)
   })
 })
 it('foo works', () => {
-  snapshot(1)
+  snapshot(100)
 })

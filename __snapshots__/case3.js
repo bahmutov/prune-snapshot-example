@@ -1,1 +1,1 @@
-exports['foo works 1'] = 1
+exports['foo works 1'] = 100
