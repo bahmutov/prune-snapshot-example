@@ -13,5 +13,10 @@
     "mocha": "6.1.4",
     "snap-shot-core": "file:../snap-shot-core",
     "snap-shot-it": "file:../snap-shot-it"
+  },
+  "config": {
+    "snap-shot-it": {
+      "sortSnapshots": true
+    }
   }
 }
