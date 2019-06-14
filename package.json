@@ -4,18 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec.js"
+    "test": "mocha spec.js",
+    "case1": "mocha ./edge-cases/case1.js",
+    "case2": "mocha ./edge-cases/case2.js",
+    "case3": "mocha ./edge-cases/case3.js"
   },
   "keywords": [],
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
   "license": "ISC",
   "devDependencies": {
     "mocha": "6.1.4",
-    "snap-shot-it": "7.5.1"
+    "snap-shot-it": "file:../snap-shot-it"
   },
   "config": {
     "snap-shot-it": {
       "sortSnapshots": true
     }
+  },
+  "dependencies": {
+    "common-tags": "1.8.0"
   }
 }
