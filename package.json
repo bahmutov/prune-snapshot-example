@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "6.1.4",
-    "snap-shot-it": "7.4.4"
+    "snap-shot-core": "file:../snap-shot-core",
+    "snap-shot-it": "file:../snap-shot-it"
   }
 }
