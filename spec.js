@@ -8,6 +8,7 @@ it('works', () => {
 it('works again', () => {
   snapshot(42)
   snapshot(101)
+  // throw new Error('nope')
 })
 
 it('uses exact spec name', () => {
